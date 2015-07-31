@@ -6,5 +6,11 @@ function readJSONFile(){
 	var filePath = "custMenu.json";
 	var str = fs.readFileSync(filePath,"utf-8");
 	jsonResult = JSON.parse(str);
-	console.log(jsonResult);
+	if(str == null || str == ""){
+		console.log("Error!Did not read the file");
+	}else {
+		console.log(jsonResult);
+	}
 }
+
+readJSONFile();
