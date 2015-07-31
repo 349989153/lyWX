@@ -1,27 +1,27 @@
 {
 	"button":[
 	{
-		"name":"视频",
+		"name":"video",
 		"sub_button":[
 		{
 			"type":"view",
-			"name":"腾讯视频",
+			"name":"QQ",
 			"url":"http://3g.v.qq.com"
 		},
 		{
 			"type":"view",
-			"name":"优酷",
+			"name":"Youku",
 			"url":"http://www.youku.com"
 		}
 		]
 	},
 	{
-		"name":"门户",
+		"name":"Dev",
 		"sub_button":[
 		{
 			"type":"view",
-			"name":"百度",
-			"url":"http://www.baidu.com"
+			"name":"Transform",
+			"url":"http://115.159.31.94:8000/transform.html"
 		},
 		{
 			"type":"view",
@@ -30,7 +30,7 @@
 		},
 		{
 			"type":"view",
-			"name":"新浪",
+			"name":"sina",
 			"url":"http://www.sina.com.cn"
 		}
 		]
